@@ -51,12 +51,12 @@ $ git config --global user.email johndoe@example.com
 ## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
 |--|:--:|--:|
-|Número de adaptadores Físicos|-->|3|
-|Número de adaptadores Virtuales|-->|7|
-|Tipo de Adaptador principal|-->|Wi-fi|
-|Fabricante del Adaptador principal|-->|Liteon Technology Corporation|
-|Código MAC del fabricante|-->|3C-A0-67|
-|MAC|-->|3C-A0-67-E8-D8-77|
+|Número de adaptadores Físicos|-->R//|1|
+|Número de adaptadores Virtuales|-->R//|1|
+|Tipo de Adaptador principal|-->R//|ethernet|
+|Fabricante del Adaptador principal|-->R//|Intel R ethernet connectión 1217-LM||
+|Código MAC del fabricante|-->R//|F8-B1-56-C3-0E-84|
+|MAC|-->R//|F8-B1-56-C3-0E-84|
 
 >Nota: Para obtener los parámetros de la red, usaremos los comandos [ipconfig][10], [ifconfig][8], [getmac][9].
 
@@ -64,15 +64,15 @@ $ git config --global user.email johndoe@example.com
 ## 4. [Caracterización de la red](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|__Subnet__|192.168.254.0/24|
-|IPv4|192.168.254.104|
-|Subnet Mask decimal|24|
-|Subnet Mask octetos|255.255.255.0|
-|Número de direcciones de Host|254|
-|Rango de direcciones de Host|192.168.254.1-254|
-|IP Broadcast|192.168.254.255|
-|Server DHCP|192.168.254.254|
-|Server DNS|8.8.8.8|
+|__Subnet__R//|192.168.10.0/24|
+|IPv4 R//|192.168.10.45|
+|Subnet Mask decimal R//|24|
+|Subnet Mask octetos R//|255.255.255.0|
+|Número de direcciones de Host R//|255|
+|Rango de direcciones de Host R//|192.168.10.0-255|
+|IP Broadcast R//|192.168.10.255|
+|Server DHCP R//|192.168.10.1|
+|Server DNS R//|8.8.8.8|
 
 >Nota: Para obtener los parámetros de la red, usaremos el comando [ipconfig][10] o [ifconfig][8].
 
@@ -80,12 +80,12 @@ $ git config --global user.email johndoe@example.com
 ## 5. [Caracterización de la puerta de enlace](#) ✔
 |Parámetro|Valor|
 |--|--:|
-|Número de Entradas en la tabla ARP |11|
-|IPv4 Gateway|192.168.254.254|
-|MAC Gateway|3C-A0-67-E8-D8-77|
-|ISP|Dobleclick Software E Ingeneria|
-|[IP Publica][5]|138.0.90.4|
-|[Sistema Autónomo][6]|AS264646|
+|Número de Entradas en la tabla ARP R// |11|
+|IPv4 Gateway R//|192.168.10.1|
+|MAC Gateway R//|F8-B1-56-C3-0E-84|
+|ISP R//|Telmex Colombia S.A.|
+|[IP Publica][5]R//|181.62.52.30|
+|[Sistema Autónomo][6] R//|AS10620|
 
 
 >Nota: Para obtener los parámetros de la red, usaremos el comando [arp][11] y algún servicio web/HTTP como [cual-es-mi-ip.net][5], [ipinfo.io][6] o [asrank.caida.org][9_1].
@@ -106,15 +106,15 @@ $ git config --global user.email johndoe@example.com
 ## 7.  [Identificacion de red](#) ✔
 |Ip|Clase de IP|Mascara de sub red|
 |--|--|--|
-|192.168.10.1|  a ||
-|10.254.20.10| a ||
-|172.10.10.5| a ||
-|101.45.36.255| a ||
-|112.85.95.125| a ||
-|23.58.20.0| a ||
-|223.158.20.0| a ||
-|113.8.20.12| a ||
-|191.18.20.1| a ||
+|192.168.10.1| R// C |255.255.255.0|
+|10.254.20.10| R// A |255.0.0.0|
+|172.10.10.5| R// B|255.255.0.0|
+|101.45.36.255| R// A |255.0.0.0|
+|112.85.95.125| R// A |255.0.0.0|
+|23.58.20.0| R// A |255.0.0.0|
+|223.158.20.0| R// A |255.255.255.0|
+|113.8.20.12| R// A|255.0.0.0|
+|191.18.20.1| R// B |255.255.0.0|
 
 
 ## 8. [Capacidad del canal](#) ✔
