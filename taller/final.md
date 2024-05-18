@@ -111,10 +111,10 @@ $ git config --global user.email johndoe@example.com
 |172.10.10.5| a ||
 |101.45.36.255| a ||
 |112.85.95.125| a ||
+|23.58.20.0| a ||
 |223.158.20.0| a ||
-|223.158.20.0| a ||
-|223.158.20.0| a ||
-|223.158.20.0| a ||
+|113.8.20.12| a ||
+|191.18.20.1| a ||
 
 
 ## 8. [Capacidad del canal](#) ✔
@@ -146,14 +146,14 @@ $ git config --global user.email johndoe@example.com
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
-## 9. [Diagrama de Red](#) ✔
+## 10. [Diagrama de Red](#) ✔
 - Realice un diagrama topológico de la red que le ofrece conectividad a internet.
 - Incluya todos los detalles de la red de area local a la que se encuentra conectado.
 - Incluya los saltos conocidos incluyendo el equipo de borde de su ISP.
 
 >Nota: Para conocer el tamaño y la topología de la red, usaremos la información previa y la pagina [ASRank][9_1].
 
-## 10. [Preguntas de conocimiento](#) ✔
+## 11. [Preguntas de conocimiento](#) ✔
 1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
 1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
 1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
