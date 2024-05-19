@@ -108,12 +108,12 @@ R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con u
 ## 6. [Retardo de la red](#) ✔
 |Servidor|IP|Tiempo promedio/ms|
 |--|--|--|
-|DNS Google|8.8.8.8||
-|DNS Cloudflare|1.1.1.1||
-|OpenDNS|208.67.222.222||
-|Alternate DNS|76.76.19.19||
-|DNS Quad9|9.9.9.9||
-|AdGuard DNS|94.140.14.14||
+|DNS Google|8.8.8.8|5-30 ms|
+|DNS Cloudflare|1.1.1.1|5-30 ms|
+|OpenDNS|208.67.222.222|5-30ms|
+|Alternate DNS|76.76.19.19|10 y 50 ms|
+|DNS Quad9|9.9.9.9|10 y 50 ms|
+|AdGuard DNS|94.140.14.14|10 y 50 ms|
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo ICMP/[ping][12] con al menos 10 paquetes.
 
