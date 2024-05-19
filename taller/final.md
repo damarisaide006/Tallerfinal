@@ -169,6 +169,7 @@ R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con u
 
 ## 11. [Preguntas de conocimiento](#) ✔
 1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
+R// 
 1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
 1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
 1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
