@@ -42,11 +42,25 @@ $ git config --global user.email johndoe@example.com
 
 <ol type="a">
 <li>¿Cual es la dirección de red y de broadcast de un host que tiene una ip 192.168.10.10/30?.</li>
+
+R// 192.168.10.8/30, que es de 192.168.10.9 a 192.Teniendo en cuenta que el primer host 192.168.10.8 se utiliza como identificador de la subred y el último host (192.168.10.11) se utiliza como dirección de transmisión, la subred 192.168.10.8/30 puede tener 4 - 2 = 2 hosts utilizable.
+
 <li>¿Que información se puede inferir de un host con la dirección 169.254.255.200/26?.</li>
+
+R// Se puede inferir que La dirección IP 169.254.255.200/26 tiene una máscara de subred de 26 bits, lo que significa que la máscara de subred en notación de puntos decimales es 255.255.255.192. La subred 169.254.Contiene un total de 62 hosts posibles 169.254.puede tener 62 - 2 = 60 hosts utilizables, ya que el primer host (169.se utiliza como identificador de la subred y el último host (169.se utiliza como dirección de difusión.
+
 <li>¿Cuantas sub-redes puede lograr con la mascara 172.16.0.0/22?.</li>
+
+R// Puede crear 4 subredes 
+
 <li>¿Cuantos clientes puede tener la sub red 172.16.0.0/22?.</li>
+
+R// Puede haber 1.020 clientes 
+
 <li>¿Que clase y tipo de dirección es 10.10.10.0/24?.</li>
 </ol>
+
+R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con una máscara de subred de 24 bits. 
 
 ## 3. [Caracterización de los adaptadores](#) ✔
 |Parámetro||Valor|
