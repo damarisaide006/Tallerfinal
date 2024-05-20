@@ -134,10 +134,10 @@ R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con u
 ## 8. [Capacidad del canal](#) ✔
 |Servidor|Ping/ms|Down/MB|Up/MB|
 |--|:--:|--:|--:|
-|[speed test][1]|39|96.4|69.2|
-|[Netflix][2]|14|78|67|
-|[Claro][3]|13|74|31|
-|[nperf][4]|6.7|93.6|54.98|
+|[speed test][1]|205|3.02|0.51|
+|[Netflix][2]|79|6.0|10|
+|[Claro][3]|58|3.7|0.3|
+|[nperf][4]|56.70|4.433|1.691|
 
 >Nota: Para calcular el retardo de la red, usaremos el protocolo HTTP via servicio WEB.
 
@@ -145,18 +145,18 @@ R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con u
 ## 9. [Distancia desde el host](#) ✔
 |Servidor|Ping/ms|Numero de Saltos|
 |--|:--:|--:|
-|google.com|14|10|
-|GMail.com|15|9|
-|YouTube.com|14|10|
-|dns.google|15|9|
-|aws.amazon.com|154|17|
-|portal.azure.com|13|11|
-|login.live.com|88|22|
-|Facebook.com|120|11|
-|c.ns.WhatsApp.net|151|12|
-|claro.com.co|151|12|
-|platzi.com|122|11|
-|rappi.com.co|184|30|
+|google.com|57|14|
+|GMail.com|55|12|
+|YouTube.com|63|14|
+|dns.google|526|12|
+|aws.amazon.com|2229|17|
+|portal.azure.com|*|30|
+|login.live.com|156|20|
+|Facebook.com|107|1|
+|c.ns.WhatsApp.net|154|19|
+|claro.com.co|*|30|
+|platzi.com|257|13|
+|rappi.com.co|*|30|
 
 >Nota: Para calcular el retardo de la red, usaremos el comando ICMP/[tracert][13].
 
