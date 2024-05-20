@@ -169,11 +169,13 @@ R// La dirección IP 10.10.10.0/24 es una dirección IP privada de clase A con u
 
 ## 11. [Preguntas de conocimiento](#) ✔
 1. ¿Cuál es el retardo esperado para tu red según la tecnología contratada?
-R// 
-1. ¿Coincide el retardo medido con el esperado para tu red según la tecnología contratada? ¿Por qué?
+R// segun la tecnologia contratada el retardo esperado es el DNS google por la calidad de la conexion a internet. 
 1. ¿Por qué varia la capacidad del canal en las distintas pruebas realizadas?
+R// la capacidad del canal varia en distintas pruebas que se realiza porque en cada test se elige un servidor diferente, a una distancia diferente.
 1. ¿Cuál de los servicios DNS es mejor para configurar mi LAN?
+R// Para configurar mi LAN el mejor DNS es google porque ofrece velocidades y alta disponibilidad. 
 1. ¿Como podría medir la disponibilidad de ni conexión a internet?
+R// Para medir la disponibilidad de mi conexion a internet, puedo usar herramientas las cuales esten especializadas en pruebas de conectividad y supervision de red por ejemplo ping
 
 
 
